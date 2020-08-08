@@ -1,0 +1,51 @@
+#showcase {
+    margin-left: 200px;
+}
+.sidebar {    
+    min-width: 200px;
+    text-align: center;
+  }
+  .navbar .active a {
+    border-bottom: 2px solid #A13862;
+  }
+.navbar {
+    position: relative;
+    margin: 0 15%;
+    text-align: center;
+    top: 40%;
+    transform: translateY(-50%);
+    font-weight: bold;
+  }
+.navbar-social {
+    display: inline-block;
+  }
+  i.fas,
+  i.fab {
+  font-size: 1rem;
+}
+.sidebar ul li {
+    padding: 0.9rem;
+  }
+.navbar h1 {
+    font-family: 'Poiret One', cursive;
+    color: #fff;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding: 0.2rem;
+  }
+
+.sidebar a {
+  font-size: 1.2rem;
+}
+.footer {
+  padding-bottom: 0.6rem;
+  min-width: 200px;
+}
+
+
+
+/* IMG size
+max 314px
+min 162  #334B48*/
