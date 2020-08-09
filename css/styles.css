@@ -9,7 +9,7 @@ font-family: 'Poiret One', cursive; */
     box-sizing: border-box;
     list-style: none;
 }
-body {
+body, html {
     background-color: #F5F5F5;
     font-family: 'Poiret One', cursive;
     list-style: none;
@@ -17,7 +17,7 @@ body {
 #showcase {
     padding-left: 282px;
     text-align: center;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 #showcase .show-cont {
@@ -42,7 +42,7 @@ body {
     text-align: center;
   }
   .navbar .active a {
-    border-bottom: 2px solid #945292;
+    color: #333;
   }
 .navbar {
     position: relative;
@@ -50,6 +50,10 @@ body {
     text-align: center;
     top: 20%;
     font-weight: bold;
+  }
+  .navbar a:hover {
+    color: #333;
+    transition: all 0.3s ease-in-out;
   }
 .navbar-social {
     display: inline-block;
@@ -86,7 +90,9 @@ i.fas,
 .sidebar a {
   text-decoration: none;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.2rem;
+
 }
 .footer {
   position: fixed;
@@ -102,6 +108,11 @@ i.fas,
 .footer p {
   text-align: center;
   margin: auto;
+}
+@media (min-width:568px) {
+  .header {
+      display: none;
+  }
 }
 
 
