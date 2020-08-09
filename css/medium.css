@@ -41,6 +41,7 @@
 }
 .footer {
   padding-bottom: 0.6rem;
+  width: 200px;
   min-width: 200px;
 }
 @media (min-width:780px) {
