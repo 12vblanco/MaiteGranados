@@ -24,13 +24,18 @@ a {
 .header ul {
     overflow: hidden;
 }
+.header ul a .active {
+    color: #333;
+}
 .header ul a {
     display: block;
     padding: 20px;
     letter-spacing: .2rem;
-    color: white;
+    color: #fff;
     font-weight: 600;
 }
+
+
 .social {
     display: inline-block;
 }

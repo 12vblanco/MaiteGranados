@@ -63,7 +63,7 @@
     text-align: center;
     margin: auto;
 }
-}
+
 @media (min-width:568px) {
     .sidebar  {
         display: none;
