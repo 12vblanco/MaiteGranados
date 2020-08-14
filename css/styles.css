@@ -23,6 +23,7 @@ body, html {
 #showcase .show-cont {
     width: 100%;
     margin: auto;
+    padding: 1rem 0 2rem 0;
 }
 .img-box {
   display: inline-block;
@@ -42,8 +43,8 @@ body, html {
     position: fixed;
     z-index: 1;
     width: 20%;
-    min-width: 282px;
-    max-width: 282px;
+    min-width: 302px;
+    max-width: 302px;
     height: 100vh;
     background: #34ABB3;
     text-align: center;
@@ -57,6 +58,8 @@ body, html {
     text-align: center;
     top: 20%;
     font-weight: bold;
+    width: 100%;
+    margin: auto;
   }
   .navbar a:hover {
     color: #333;
@@ -65,18 +68,23 @@ body, html {
 .navbar-social {
     display: inline-block;
   }
+.navbar-menu {
+  width: 280px;
+}
 
 .navbar h1 {
     font-family: 'Poiret One', cursive;
     color: #fff;
     text-align: center;
     font-weight: bolder;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     letter-spacing: 0.5rem;
     padding: 0.6rem;
   }
 .surname {
     border-bottom: 1px solid white;
+    width: 80%;
+    margin: auto;
   }
 .navbar ul {
     list-style: none;  
@@ -116,7 +124,7 @@ i.fas,
   text-align: center;
   margin: auto;
 }
-@media (min-width:568px) {
+@media (min-width:598px) {
   .header {
       display: none;
   }
