@@ -98,8 +98,8 @@
     padding-top: 2rem;  
   }
   .contact-form p {
-    font-size: 1rem;
-    padding: 1.2rem;
+    font-size: 0.9rem;
+    padding: 1.1rem;
   }
   .contact-form h2 {
     font-size: 1.4rem;
@@ -111,7 +111,8 @@
     border-bottom: 2px solid #025358;
   }
   textarea {
-      max-width: 260px;
+    max-width: 260px;
+    max-height: 160px;
     background: #F5F5F5;
     padding: 0.4rem;
     border: 2px solid #025358;
