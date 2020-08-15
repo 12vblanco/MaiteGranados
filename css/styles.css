@@ -176,6 +176,9 @@ i.fas,
 }
 
 /* contact */
+.hidden {
+  display: none;
+}
 .contact-form {
   padding-top: 12rem;  
 }
