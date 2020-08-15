@@ -54,7 +54,73 @@
     height: auto;
     padding: 1rem;
 }
+/* Bio */
 
+  .first-block {
+    max-width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: justify;
+  }
+  .show-cont-bio .bio-top-img {
+    width: 100%;
+    height: auto;
+  }
+  .show-cont-bio .bio-top-p {
+    border-bottom: #34ABB3 solid 2px;
+    border-left: #34ABB3 solid 2px;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.1;
+    line-height: 1.2;
+  }
+  .second-block {
+    max-width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+    text-align: justify;
+  }
+  .show-cont-bio .bio-bottom-img {
+    width: 100%;
+    height: auto;
+  }
+  .show-cont-bio .bio-bottom-p {
+    border-top: #34ABB3 solid 2px;
+    border-right: #34ABB3 solid 2px;
+    padding: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.1;
+    line-height: 1.2;
+  }
+
+  /* contact */
+.contact-form {
+    padding-top: 4rem;  
+  }
+  .contact-form p {
+    font-size: 1rem;
+    padding: 1.4rem;
+  }
+  .contact-form h2 {
+    font-size: 1.4rem;
+  }
+  input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid #025358;
+  }
+  textarea {
+      max-width: 260px;
+    background: #F5F5F5;
+    padding: 0.4rem;
+    border: 2px solid #025358;
+  }
+  .submit {
+    border: 2px solid #025358;
+    padding: 0.3rem;
+  }
+/* Footer */
 .footer-nav {
     
     color: white;

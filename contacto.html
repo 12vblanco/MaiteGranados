@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/edbd8d14d4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <link rel="icon" href="images/logo.png">
     <link rel="stylesheet" media="screen and (max-width:100vw)" href="css/styles.css">
-    <link rel="stylesheet" media="screen and (max-width:850px)" href="css/medium.css">
-    <link rel="stylesheet" media="screen and (max-width:568px)" href="css/mobile.css">
-    <link rel="stylesheet" media="screen and (max-width:568px)" href="css/menu.css">    
-    <title>Maite Granados | Contacto</title>
+    <link rel="stylesheet" media="screen and (max-width:890px)" href="css/medium.css">
+    <link rel="stylesheet" media="screen and (max-width:598px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (max-width:598px)" href="css/menu.css">  
+  
+    <title>Maite Granados | Autora</title>
 </head>
 <body>
     <header class="header">
@@ -30,19 +33,19 @@
 
     <div class="sidebar">
         <div class="navbar">
-            
-            <h1>MAITE</h1>
-            <h1 class="surname">GRANADOS</h1>
+            <img class="icon" src="images/icon.jpg" alt="Maite Granados Autorretrato">
+            <a href="index.html"><h1>MAITE</h1>
+            <h1 class="surname">GRANADOS</h1></a>
             <ul class="navbar-social">
                 <li><a href="https://www.etsy.com/shop/Nebulosasinmymind?ref=simple-shop-header-name&listing_id=814232949" target="_blank"><i class="fab fa-etsy"></i></a></li>
                 <li><a href="https://www.facebook.com/maitegranadosart" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.instagram.com/nebulosasinmymind/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             </ul>
-            <ul>
+            <ul class="navbar-menu">
                 <li><a href="index.html">DIBUJOS</a></li>
-            <li><a href="ilustracion.html">ILUSTRACIONES</a></li>
-            <li><a href="autora.html">AUTORA</a></li>
-            <li class="active"><a href="contacto.html">CONTACTO</a></li>
+                <li><a href="ilustracion.html">ILUSTRACIONES</a></li>
+                <li><a href="autora.html">AUTORA</a></li>
+                <li class="active"><a href="contacto.html">CONTACTO</a></li>
             </ul>
         </div>
         <div class="footer">
@@ -52,9 +55,27 @@
     
 </div>
 <section id="showcase">
-    <div class="show-cont">
-     
-    </div>
+    <div class="contact-form">
+        <form class="form" name="contact" method="POST" data-netlify="true">
+            <h2>Para compras o encargos,<br> dudas o sugerencias puedes<br> enviarnos un mensaje aquí:</h2>
+            <p class="name">
+              <label class="form-item">Nombre <input type="text" name="name" required></label>   
+            </p>
+            <p>
+              <label class="form-item">Email <input type="email" name="email" required></label>   
+            </p>
+           
+            <p>
+              <label><textarea name="message" rows="10" cols="40" required></textarea></label>
+            </p>
+        
+            <p><input class="checkbox" type="checkbox" name="terms" value="Yes" required> Estoy de acuerdo con los <a href="terminos.html"> <u>términos de uso</u></a></p>
+  
+            <p>
+              <input class="submit" type="submit" value=" Enviar ">
+            </p>
+      </form>
+    </div>   
 </section>
 
 </body>
