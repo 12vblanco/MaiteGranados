@@ -52,18 +52,19 @@
     min-width: 100vw;
     width: 100%;
     height: auto;
-    padding: 1rem;
+    margin: 0;
 }
 /* Bio */
 
   .first-block {
     max-width: 100%;
-    padding: 2rem 1rem 1rem 1rem;
+    padding: 0.6rem;
     text-align: justify;
   }
   .show-cont-bio .bio-top-img {
     width: 100%;
     height: auto;
+    padding: 0.4rem;
   }
   .show-cont-bio .bio-top-p {
     border-bottom: #34ABB3 solid 2px;
@@ -78,10 +79,12 @@
     max-width: 100%;
     padding: 2rem 1rem 1rem 1rem;
     text-align: justify;
+    padding: 0.4rem;
   }
   .show-cont-bio .bio-bottom-img {
     width: 100%;
     height: auto;
+    padding: 0.4rem;
   }
   .show-cont-bio .bio-bottom-p {
     border-top: #34ABB3 solid 2px;
@@ -134,7 +137,7 @@
     margin: auto;
 }
 
-@media (min-width:568px) {
+@media (min-width:648px) {
     .sidebar  {
         display: none;
     }

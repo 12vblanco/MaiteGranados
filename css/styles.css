@@ -16,7 +16,7 @@ body, html {
     list-style: none;
 }
 #showcase {
-    padding-left: 282px;
+    padding-left: 302px;
     text-align: center;
     max-width: 1400px;
     margin: auto;
@@ -24,11 +24,12 @@ body, html {
 #showcase .show-cont {
     width: 100%;
     margin: auto;
-    padding: 1rem 0 2rem 0;
+    padding: 2rem 0 2rem 0;
 }
 .img-box {
   display: inline-block;
 }
+
 .price {
   color: firebrick;
   font-weight: 600;
@@ -38,7 +39,10 @@ body, html {
     min-width: 180px;
     width: 20vw;
     height: auto;
-    padding: 1.2rem 1.2rem 0.6rem 1.2rem;
+    margin: 0.6rem;
+    -webkit-box-shadow: 0px 6px 10px -8px rgba(0,0,0,0.63);
+-moz-box-shadow: 0px 6px 10px -8px rgba(0,0,0,0.63);
+box-shadow: 0px 6px 10px -8px rgba(0,0,0,0.63);
 }
 .sidebar {
     position: fixed;
@@ -138,6 +142,9 @@ i.fas,
 .show-cont-bio .bio-top-p {
   border-bottom: #34ABB3 solid 2px;
   border-left: #34ABB3 solid 2px;
+  -webkit-box-shadow: -10px 14px 10px -8px rgba(0,0,0,0.63);
+-moz-box-shadow: -10px 14px 10px -8px rgba(0,0,0,0.63);
+box-shadow: -10px 14px 10px -8px rgba(0,0,0,0.63);
   padding: 1rem;
   font-weight: 600;
   font-size: 1.1rem;
@@ -169,6 +176,9 @@ i.fas,
   font-size: 1.1rem;
   letter-spacing: 0.1rem;
   line-height: 1.4;
+  -webkit-box-shadow: 12px -12px 10px -8px rgba(0,0,0,0.63);
+-moz-box-shadow: 12px -12px 10px -8px rgba(0,0,0,0.63);
+box-shadow: 12px -12px 10px -8px rgba(0,0,0,0.63);
 }
 .first-word {
   font-weight: 800;

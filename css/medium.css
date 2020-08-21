@@ -51,7 +51,7 @@
   width: 200px;
   min-width: 200px;
 }
-@media (min-width:780px) {
+@media (min-width:648px) {
   .header {
       display: none;
   }
