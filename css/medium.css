@@ -46,6 +46,28 @@
   font-size: 1rem;
   letter-spacing: 0.1rem;
 }
+.first-block {
+  display: block;
+}
+.first-word {
+ margin-left: 3rem;
+}
+.first-block p {
+  display: block;
+}
+.show-cont-bio .bio-top-img {
+  display: block;
+  float: inline-start;
+  width: 45vw;
+  height: auto;
+}
+.show-cont-bio .bio-bottom-img {
+  display: block;
+  float: inline-start;
+  width: 45vw;
+  height: auto;
+}
+
 .footer {
   padding-bottom: 0.6rem;
   width: 200px;
@@ -56,6 +78,7 @@
       display: none;
   }
 }
+
 
 
 
